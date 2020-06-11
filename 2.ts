@@ -1,21 +1,12 @@
-// Array Spread Operator
-function buildPersonData({ firstname, lastname}, address=['']){
-    return `${firstname} 
-            ${lastname}
-            ${address}`;
-}
+// REST Operator
+import {buildPersonData} from "./buildPersonData"
 
-const partialAddress = ["Street Name","Street Number",""];
-
+const partialAddress = ["Street Name","Street Number","P O Box"];
 const firstname='Fox',
       lastname='Pro'
-      
-
 const personData = {
     firstname,
     lastname,
-    
 }
-
 const address = [...partialAddress,'Iraq'];
-buildPersonData(personData,address);
+console.log(buildPersonData(personData,address));
