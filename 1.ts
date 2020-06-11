@@ -8,8 +8,10 @@ function Person (name) {
     this.name = name;
     this.sayHi = function(){
         setTimeout(() => {
-         console.log('hello my name is '+ this.name)   
-        });
+         console.log(`hello my name
+         
+         is ${this.name}`)   
+        },1000);
     }
 }
 

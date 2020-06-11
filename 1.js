@@ -6,8 +6,8 @@ function Person(name) {
     this.sayHi = function () {
         var _this = this;
         setTimeout(function () {
-            console.log('hello my name is ' + _this.name);
-        });
+            console.log("hello my name\n         \n         is " + _this.name);
+        }, 1000);
     };
 }
 var person = new Person('Bob');
