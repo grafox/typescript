@@ -1,11 +1,11 @@
-declare function buildPersonData({firstname, lastname, address}: {
+declare function buildPersonData({firstname, lastname}: {
     firstname: any;
     lastname: any;
-    address: any;
-}): string;
-declare const firstname: string, lastname: string, address: string;
+}, address?: string[]): string;
+declare const partialAddress: string[];
+declare const firstname: string, lastname: string;
 declare const personData: {
     firstname: string;
     lastname: string;
-    address: string;
 };
+declare const address: string[];

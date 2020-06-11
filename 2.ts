@@ -1,18 +1,21 @@
-// shorthand object creation
-function buildPersonData({ firstname, lastname, address}){
+// Array Spread Operator
+function buildPersonData({ firstname, lastname}, address=['']){
     return `${firstname} 
             ${lastname}
-            ${address}`
+            ${address}`;
 }
 
+const partialAddress = ["Street Name","Street Number",""];
+
 const firstname='Fox',
-      lastname='Pro',
-      address= 'Iraq'
+      lastname='Pro'
+      
 
 const personData = {
     firstname,
     lastname,
-    address
+    
 }
 
-buildPersonData(personData);
+const address = [...partialAddress,'Iraq'];
+buildPersonData(personData,address);

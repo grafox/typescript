@@ -1,12 +1,14 @@
-// shorthand object creation
-function buildPersonData(_a) {
-    var firstname = _a.firstname, lastname = _a.lastname, address = _a.address;
+// Array Spread Operator
+function buildPersonData(_a, address) {
+    var firstname = _a.firstname, lastname = _a.lastname;
+    if (address === void 0) { address = ['']; }
     return firstname + " \n            " + lastname + "\n            " + address;
 }
-var firstname = 'Fox', lastname = 'Pro', address = 'Iraq';
+var partialAddress = ["Street Name", "Street Number", ""];
+var firstname = 'Fox', lastname = 'Pro';
 var personData = {
     firstname: firstname,
-    lastname: lastname,
-    address: address
+    lastname: lastname
 };
-buildPersonData(personData);
+var address = partialAddress.concat(['Iraq']);
+buildPersonData(personData, address);
