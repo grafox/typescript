@@ -19,5 +19,5 @@ let person:Person = {
         firstName:'',
         lastName:'',
     }
-
 }
+
