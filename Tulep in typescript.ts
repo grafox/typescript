@@ -1,4 +1,4 @@
-let person:string[] = ['Gassan','Maha','Ali'];
+let person3:string[] = ['Gassan','Maha','Ali'];
 let twoPerson:string[] = ['Gassan','Maha'];
 
 let counters:number[]=[0,1,2];

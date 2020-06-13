@@ -2,11 +2,11 @@
 //Aarow function
 const message1 = 'Hello';
 
-const  sayHello = message1 => console.log(message1);
+const  sayHello2 = message1 => console.log(message1);
 
-sayHello(message+1)
+sayHello2(message+1)
 
-function Person (name) {
+function Person (name:string) {
     this.name = name;
     this.sayHi = function(){
         setTimeout(() => {

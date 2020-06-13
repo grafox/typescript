@@ -9,10 +9,10 @@ const creatHelloMessage = (name:string,extra?:number):string =>{
 const creator:MessageCreator = creatHelloMessage;
 const creator2:interfaceMessageCreator = creatHelloMessage;
 
-const message = creator('Gassan');
+const message0 = creator('Gassan');
 const message2 = creator2('Maha')
 
-console.log(message);
+console.log(message0);
 console.log(message2);
 let hello = creatHelloMessage('Gassan');
 console.log(hello);
