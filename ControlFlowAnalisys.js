@@ -3,7 +3,7 @@ function creatMessage(name) {
     if (name) {
         return "Hello my name is " + name;
     }
-    // return undefined 
+    // return undefined // error
     return 'Write some name';
 }
 console.log(creatMessage("Gas"));

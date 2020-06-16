@@ -4,7 +4,7 @@ function creatMessage(name: string):string{
     if(name){
         return `Hello my name is ${name}`;
     }
-    // return undefined 
+    // return undefined // error
     return 'Write some name';
 }
 
