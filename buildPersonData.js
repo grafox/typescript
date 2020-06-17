@@ -1,4 +1,4 @@
-function buildPersonData(_a) {
+export function buildPersonData(_a) {
     var firstname = _a.firstname, lastname = _a.lastname;
     var address = [];
     for (var _i = 1; _i < arguments.length; _i++) {
@@ -6,4 +6,4 @@ function buildPersonData(_a) {
     }
     return firstname + " \n            " + lastname + "\n            " + address;
 }
-exports.buildPersonData = buildPersonData;
+//# sourceMappingURL=buildPersonData.js.map

@@ -8,3 +8,4 @@ function creatMessage(name) {
 }
 console.log(creatMessage("Gas"));
 console.log(creatMessage(''));
+//# sourceMappingURL=ControlFlowAnalisys.js.map

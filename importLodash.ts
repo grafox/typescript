@@ -1,7 +1,9 @@
-//import {first} from 'lodash';
-import _ = require('lodash');
+import {first} from 'lodash';
+
+//import _ = require('lodash');
 const colors = ["Red","Blue","Green"];
 
-const firstColor = _.first(colors);
+const firstColor = first(colors);
 
 console.log(firstColor);
+

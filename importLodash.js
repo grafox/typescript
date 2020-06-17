@@ -1,5 +1,6 @@
-//import {first} from 'lodash';
-var _ = require('lodash');
+import { first } from 'lodash';
+//import _ = require('lodash');
 var colors = ["Red", "Blue", "Green"];
-var firstColor = _.first(colors);
+var firstColor = first(colors);
 console.log(firstColor);
+//# sourceMappingURL=importLodash.js.map

@@ -16,3 +16,4 @@ var James = ['Jams', PlayerPosition.Guard];
 var Shap = ['Shap', PlayerPosition.Forward];
 var Players = [Kobe, James, Shap];
 console.log(Players);
+//# sourceMappingURL=enum.js.map
