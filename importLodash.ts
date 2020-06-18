@@ -6,4 +6,3 @@ const colors = ["Red","Blue","Green"];
 const firstColor = first(colors);
 
 console.log(firstColor);
-

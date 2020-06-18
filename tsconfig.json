@@ -1,9 +1,10 @@
 {
     "compilerOptions": {
         "module": "esnext",
+        "inlineSourceMap": false,
         "target": "ES5",
         "noImplicitAny": true,
-        "sourceMap": true,
+        "sourceMap": false,
         "strictNullChecks": true,
         "moduleResolution": "Node",
         "typeRoots": [
