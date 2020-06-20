@@ -1,9 +1,6 @@
-
 //Aarow function
 const message1 = 'Hello';
-
 const  sayHello2 = (message1: string) => console.log(message1);
-
 sayHello2(message+1)
 
 function Person (name:string) {
@@ -11,10 +8,11 @@ function Person (name:string) {
     this.sayHi = function(){
         setTimeout(() => {
          console.log(`hello my name
-          
-         is ${this.name}`)   
+
+         is ${this.name}`) 
         },1000);
     }
+    
 }
 
 const person1 = new Person('Bob');
